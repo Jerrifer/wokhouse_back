@@ -7,6 +7,10 @@ const supplySchema = new mongoose.Schema(
       type: String,
     },
 
+    amount: {
+      type: String,
+    },
+
   },
   {
     timestamps: true,
